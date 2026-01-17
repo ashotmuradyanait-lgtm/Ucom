@@ -1,6 +1,9 @@
+import { Link } from "react-router-dom";
+
 function Home() {
   return (
     <>
+      <Link to="/">Վերադառնալ Home</Link>
     <div className="div1">
     <br /><br />
     <p id="br">Անհատներ</p>

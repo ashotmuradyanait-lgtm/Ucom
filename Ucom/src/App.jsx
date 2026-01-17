@@ -1,11 +1,12 @@
 import './companents/Header'
 import './App.css'
-
+import { Link } from "react-router-dom";
 
 function App() {
 
   return (
     <>
+    <Link to="/about">Գնալ About էջ</Link>
     <div className="div1">
     <br /><br />
     <p id="br">Անհատներ</p>
